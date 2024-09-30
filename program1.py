@@ -9,7 +9,6 @@ class Solution:
         rows = len(grid)
         cols = len(grid[0])
         
-        # Set of visited cells
         visited = set()
         
         # Helper function for DFS
