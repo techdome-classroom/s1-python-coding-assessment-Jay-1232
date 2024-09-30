@@ -37,4 +37,4 @@ class Solution:
                     island_count += 1
         
         return island_count          
-        return 0
+    
