@@ -13,7 +13,6 @@ class Solution:
         
         # Helper function for DFS
         def dfs(r, c):
-            # If out of bounds or in water or already visited, stop the DFS
             if r < 0 or c < 0 or r >= rows or c >= cols or grid[r][c] == 'W' or (r, c) in visited:
                 return
             # Mark the current cell as visited
